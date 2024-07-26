@@ -11,6 +11,10 @@
 		F71EA1372C53DE5C00C31EAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71EA1362C53DE5C00C31EAF /* ContentView.swift */; };
 		F71EA1392C53DE5E00C31EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71EA1382C53DE5E00C31EAF /* Assets.xcassets */; };
 		F71EA13C2C53DE5E00C31EAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71EA13B2C53DE5E00C31EAF /* Preview Assets.xcassets */; };
+		F71EA1442C53DE9400C31EAF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71EA1432C53DE9400C31EAF /* Model.swift */; };
+		F71EA1472C53DEDD00C31EAF /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71EA1462C53DEDD00C31EAF /* NetworkServices.swift */; };
+		F71EA14A2C53DF1A00C31EAF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71EA1492C53DF1900C31EAF /* ViewModel.swift */; };
+		F71EA14D2C53DF4D00C31EAF /* PaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71EA14C2C53DF4D00C31EAF /* PaginationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F71EA1362C53DE5C00C31EAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F71EA1382C53DE5E00C31EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F71EA13B2C53DE5E00C31EAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F71EA1432C53DE9400C31EAF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F71EA1462C53DEDD00C31EAF /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		F71EA1492C53DF1900C31EAF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F71EA14C2C53DF4D00C31EAF /* PaginationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		F71EA1332C53DE5C00C31EAF /* PaginationDummy */ = {
 			isa = PBXGroup;
 			children = (
+				F71EA14B2C53DF3A00C31EAF /* Views */,
+				F71EA1482C53DEF500C31EAF /* ViewModel */,
+				F71EA1452C53DEC700C31EAF /* Services */,
+				F71EA1422C53DE6A00C31EAF /* Model */,
 				F71EA1342C53DE5C00C31EAF /* PaginationDummyApp.swift */,
 				F71EA1362C53DE5C00C31EAF /* ContentView.swift */,
 				F71EA1382C53DE5E00C31EAF /* Assets.xcassets */,
@@ -65,6 +77,38 @@
 				F71EA13B2C53DE5E00C31EAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F71EA1422C53DE6A00C31EAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F71EA1432C53DE9400C31EAF /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F71EA1452C53DEC700C31EAF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F71EA1462C53DEDD00C31EAF /* NetworkServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F71EA1482C53DEF500C31EAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F71EA1492C53DF1900C31EAF /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F71EA14B2C53DF3A00C31EAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F71EA14C2C53DF4D00C31EAF /* PaginationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71EA14D2C53DF4D00C31EAF /* PaginationView.swift in Sources */,
+				F71EA14A2C53DF1A00C31EAF /* ViewModel.swift in Sources */,
+				F71EA1442C53DE9400C31EAF /* Model.swift in Sources */,
 				F71EA1372C53DE5C00C31EAF /* ContentView.swift in Sources */,
+				F71EA1472C53DEDD00C31EAF /* NetworkServices.swift in Sources */,
 				F71EA1352C53DE5C00C31EAF /* PaginationDummyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct PaginationDummyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PaginationView()
         }
     }
 }
