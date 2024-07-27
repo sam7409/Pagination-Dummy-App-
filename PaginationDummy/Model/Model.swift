@@ -9,10 +9,10 @@
 struct PixabayResponse: Decodable {
     let total: Int
     let totalHits: Int
-    let images: [Image]
+    let hits: [Hit]
 }
 
-struct Image: Decodable, Identifiable, Equatable {
+struct Hit: Decodable, Identifiable, Equatable {
     let id: Int
     let pageURL: String
     let type: String

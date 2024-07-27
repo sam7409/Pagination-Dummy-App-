@@ -14,10 +14,87 @@
             filePath = "PaginationDummy/Services/NetworkServices.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "fetchImages(page:completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FEFAD9A7-8E35-4033-B89B-E4695BE60BAA - 24953d56ffcdd463"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PaginationDummy.NetworkService.fetchHits(page: Swift.Int, completion: (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/Services/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "FEFAD9A7-8E35-4033-B89B-E4695BE60BAA - 24953d56ffcdd4c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PaginationDummy.NetworkService.fetchHits(page: Swift.Int, completion: (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/Services/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+               <Location
+                  uuid = "FEFAD9A7-8E35-4033-B89B-E4695BE60BAA - d2491078a3b0e739"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PaginationDummy.NetworkService.fetchImages(page: Swift.Int, completion: (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/Services/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+               <Location
+                  uuid = "FEFAD9A7-8E35-4033-B89B-E4695BE60BAA - 3890d54a4e67f9e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PaginationDummy.NetworkService.fetchHits(page: Swift.Int, completion: (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/Services/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "FEFAD9A7-8E35-4033-B89B-E4695BE60BAA - 67963ab0decdfed1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PaginationDummy.NetworkService.fetchImages(page: Swift.Int, completion: (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/Services/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,8 +107,8 @@
             filePath = "PaginationDummy/Services/NetworkServices.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "fetchImages(page:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -50,6 +127,38 @@
             endingLineNumber = "35"
             landmarkName = "fetchHits()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8D49D1CD-FDD5-423E-8442-4A7177575B9E - a94167d56b6d694a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; () in PaginationDummy.HitsViewModel.fetchHits() -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "8D49D1CD-FDD5-423E-8442-4A7177575B9E - d0d721f12a5d27d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; () in PaginationDummy.PaginationViewModel.fetchHits() -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "384">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -62,10 +171,57 @@
             filePath = "PaginationDummy/Services/NetworkServices.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "fetchImages(page:completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80FFDD68-2A5F-4A16-A24E-336C82CB2785 - 3890d54a4e67c68e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PaginationDummy.NetworkService.fetchHits(page: Swift.Int, completion: (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/Services/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "80FFDD68-2A5F-4A16-A24E-336C82CB2785 - 67963ab0decdc1f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PaginationDummy.NetworkService.fetchImages(page: Swift.Int, completion: (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/Services/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "80FFDD68-2A5F-4A16-A24E-336C82CB2785 - 3890d54a4e67c6c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PaginationDummy.NetworkService.fetchHits(page: Swift.Int, completion: (Swift.Result&lt;PaginationDummy.PixabayResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaginationDummy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/himanshusingh/Documents/Downloads/PaginationDummy/PaginationDummy/Services/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "496">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

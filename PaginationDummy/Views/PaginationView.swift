@@ -12,7 +12,7 @@ struct PaginationView: View {
 
     var body: some View {
         NavigationView {
-            List(viewModel.hits) { hit in
+            List(viewModel.images) { hit in
                 VStack(alignment: .center) {
                     if let url = URL(string: hit.previewURL) {
                         AsyncImage(url: url) { image in
@@ -39,7 +39,7 @@ struct PaginationView: View {
                 }
                 .padding(.vertical)
                 .onAppear {
-                    if hit == viewModel.hits.last {
+                    if hit == viewModel.images.last {
                         viewModel.fetchHits()
                     }
                 }

@@ -9,7 +9,7 @@ import Combine
 import SwiftUI
 
 class PaginationViewModel: ObservableObject {
-    @Published var images: [Image] = []
+    @Published var images: [Hit] = []
     @Published var isLoading: Bool = false
     @Published var errorMessage: String?
 
@@ -32,7 +32,7 @@ class PaginationViewModel: ObservableObject {
                 self?.isLoading = false
                 switch result {
                 case .success(let response):
-                    self?.images.append(contentsOf: response.images)
+                    self?.images.append(contentsOf: response.hits)
                     self?.totalHits = response.totalHits
                     self?.currentPage += 1
                 case .failure(let error):
